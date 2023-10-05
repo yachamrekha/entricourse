@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var marks = {  
+             telugu : 99,
+            english : 92,
+            maths : 99,
+            science : 92,
+            social : 90
+        } 
+
+        console.log(marks.telugu);
+        console.log(marks.social);
+
+        var person = {
+
+            firstname : "Rekha",
+            lastname : "Yacham",
+            age : 30,
+            mobile : "917610857",
+            email : "yachamrekha@gmail.com",
+            profession :"Software Developer",
+            place : "Tirupathi",
+            Fullname : function(){
+                console.log(this.firstname +" " + this.lastname);
+            },
+            professionAndplace : function(){
+                console.log(this.profession +" ," + this.place)
+
+            }
+        }
+
+        console.log(person.name);
+        console.log(person.age);
+        console.log(person.email);
+        console.log(person.mobile);
+        console.log(person.Fullname())
+        console.log(person.professionAndplace())
+    </script>
+</body>
+</html>
