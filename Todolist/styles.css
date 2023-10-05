@@ -1,0 +1,45 @@
+#todo-container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form {
+
+    margin-bottom: 40px;
+}
+
+#task {
+    width : 80%;
+    height: 40px;
+    padding : 10px 20px;
+    margin : 10px 0;
+    border:  solid rgb(13, 13, 36);
+    box-sizing : border-box;
+}
+
+button {
+
+    width : 20%;
+    background-color: green;
+    color: white;
+    padding: 8px 0;
+    border : none;
+    cursor: pointer; 
+    border-radius: 20px;
+
+
+}
+
+ul {
+    list-style: none;
+}
+li{
+    background-color: rgb(210, 108, 108);
+    padding : 10px;
+    margin-bottom: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+}
